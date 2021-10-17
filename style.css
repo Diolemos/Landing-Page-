@@ -6,26 +6,97 @@ html{
 body{
     padding: 0px;
     margin: 0px;
-    border: 1px solid red;
+    
     position: relative;
 }
 
 .header-container{
     background-color: #1f2937;
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 800;
     height: 100%;
     width: 100%;
-    display: flex;
+    
 }
 
 
+header{
+    display: block;
+}
 
+header img {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
 
 header ul{
-    font-size: 18px;
+    width:400px;
+    font-size: 16px;
     margin-top: 0px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    
+    float: right;
+    margin-right: 10%;
+}
+header ul li {
+    list-style: none;
+    
+}
+ul li a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.heading-parent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    justify-content:center;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    
+
+}
+
+.heading-container p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.heading-container button{
+    
+width: 150px;
+border-radius: 5px;
+align-self: center;
+background-color: #3882f6;
+color: #f9faf8;
+border: none;
+
+}
+
+.heading-container button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image-container{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+
 }
