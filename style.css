@@ -100,3 +100,52 @@ border: none;
     box-sizing: border-box;
 
 }
+
+/* Styling for the 3rd part. the 4 illustrations */
+
+
+.illustration{
+    width: 125px;
+    height: 125px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+#illustration1{
+    background-image: url(images/dk.jpg);
+    background-size: cover;
+
+}
+#illustration2{
+    background-image: url(images/ki.jpg);
+    background-size: cover;
+}
+
+#illustration3{
+    background-image: url(images/bm.jpg);
+    background-size: cover;
+
+}
+#illustration4{
+    background-image: url(images/pw.png);
+    background-size: cover;
+
+}
+
+.illustration-text{
+    font-size: 10px;
+    font-weight: 100;
+    text-align: justify;
+}
+.illustration-card{
+    width: 129px;
+    height: auto;
+}
+
+.illustration-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+h2{
+    text-align: center;
+}
